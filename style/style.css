@@ -1,0 +1,431 @@
+@font-face {
+    font-family: ade;
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=EB+Garamond:ital@1&family=Merriweather:wght@300&family=Pacifico&display=swap');
+
+header{
+    padding: 10px;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner > div{
+position: absolute;
+width: 40%;
+top: 25%;
+left: 10%;
+}
+.banner h1{font-size: 4.5rem;
+}
+.banner p{
+    font-size: large;
+}
+.banner button{
+    width: 100px;
+    height:40px;
+    background-color: red;
+    color:white;
+}
+.banner button:hover{
+    background-color: orangered;
+}
+.banner button:active{
+ background-color: aqua;
+}
+
+nav{background-color: red;
+color: white;
+padding: 10px;}
+
+nav ul{
+    display: flex;
+    column-gap: 32px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    background-color: black;
+    padding: 5%;
+    color: aliceblue;
+    
+}
+.text-image{
+    display: flex;
+    column-gap: 5%;
+}
+
+.text-image div{
+    flex: 1;
+    column-gap: 2%;
+}
+
+.text-image img{
+    border: double 9px white;
+    border-radius: 20px 0px 20px 0px;
+}
+.text-image h3{
+    color: yellow;
+}
+.mission-vision{
+    display: flex;
+    column-gap: 3%;
+    margin-top: 30px;
+
+}
+.mission{
+    background-color: rgb(250, 0, 0);
+    border-radius: 30px 30px 0 30px;
+    padding: 3%;
+}
+.vision{
+    background-color: rgb(255, 174, 0);
+    border-radius: 30px 30px 30px 0;
+    padding: 3%;
+    color: black;
+}
+.reserve{
+    display: flex;
+    column-gap: 3%;
+    padding: 20px;
+}
+.reserve aside{
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.37);
+}
+.service{
+    padding: 5%;
+}
+.reserve p{
+    margin: 20px;
+}
+.reserve h4{
+    margin: 20px;
+}
+.service h1{
+    color: rgb(255, 174, 0);
+    font-size: 3vw;
+    margin: 10px;
+    
+}
+.service button{
+    width: 200px;
+    height:40px;
+    background-color: rgb(255, 174, 0);
+    color:white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 7px rgba(131, 81, 81, 0.37)
+}
+.service button:hover{
+    background-color: red;
+}
+.service button:active{
+    background-color: yellow;
+}
+/* chefs pic */
+.chef{
+    display: flex;
+    column-gap: 4%;
+}
+.chef aside{
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.text h2{
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 2px;
+    
+}
+.text h3{
+    color: rgb(255, 174, 0);
+    font-style: italic;
+}
+.staff{
+    background-color: rgb(239, 242, 243);
+    padding: 2% 5%;
+    
+}
+.staff h3{
+    margin: 0px;
+}
+
+.testi section{
+    display: flex;
+    column-gap: 3%;
+    
+}
+.testi div{
+    display: flex;
+    column-gap: 3%;
+}
+footer{
+    background-color: #021027;
+    color: white;
+    padding: 5%;
+    margin-top: 20px;
+}
+footer section{
+    display: flex;
+    column-gap: 3%;
+    
+}
+footer aside{
+    flex: 1;
+}
+footer h2{
+    color: rgb(247, 171, 7);
+    border-top: 2px solid rgb(247, 171, 7);
+    border-bottom: 2px solid rgb(247, 171, 7);
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+/* compamy */
+footer ul{
+    list-style-type: ">";
+    margin: 10px;
+}
+i{
+    margin-right: 5px;
+}
+#rose{
+background-color: rgb(247, 171, 7);
+padding-right: 10px;
+border: 4px solid rgba(243, 238, 238, 0.432);
+}   
+#janet{
+    border: 4px solid rgb(187, 181, 181);
+}
+#micheal{
+    border: 4px solid rgb(187, 181, 181);
+}
+#janet p{
+    margin: 15px;
+}
+#micheal p{
+    margin: 15px;
+}
+#rose p{
+    margin: 15px;
+}
+/* last footerlist */
+.footer li{
+    list-style-type: none;
+    display: inline-block;
+    border-right:  2px solid white;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.footer ul{
+    float: right;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    padding: 5%;
+    
+}
+.menu-1{
+    text-align: center;
+}
+.menu-1 h5{
+    font-size: 1.5vw;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+.menu-1  h5:before{
+    content:"";
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+}
+.menu-1  h5:after{
+    content:"";
+    width: 120px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+}
+span{
+    background-color: white;
+    padding: 0 10px;
+
+}
+/* menu 2 */
+
+.menu-2{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.menu-2 aside{
+    display: flex;
+    column-gap: 3%;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid orangered;
+
+}
+.menu-2 aside:hover{
+    border-bottom: 3px solid orangered;
+
+}
+.menu-2 i{
+    font-size: 40px;
+    color: rgb(255, 153, 0);
+
+}
+.menu-3{
+    margin: 30px 0;
+    display: flex;
+    column-gap: 5%;
+}
+.menu-3 div{
+    display: flex;
+    column-gap: 2%;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.menu-3 figure{
+    flex: 1;
+    margin: 0;
+}
+.menu-3 summary{
+    flex: 4;
+}
+.menu-3 article{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-3 article span{
+    font-size: 20px;
+}
+.menu-3 span{
+    font-weight: bold;
+
+}
+.price{
+    font-size: 0px;
+    color: rgb(255, 153, 0);
+}
+/* footer border */
+.fqa{
+
+    border-right: none !important;
+}
+.arrow{
+    background-color: white;
+    width: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+}
+/* @mediascrean */
+@media screen and (max-width: 1000px) {
+    .chef{
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+.menu-3{
+    display: block;
+    margin-bottom: 20px;
+    }   
+    
+    .banner{
+       
+        height: 700px;
+    }
+
+    .menu-2{
+        display: block;
+        margin-bottom: 20px;
+        }
+
+
+    footer section{
+    display: block;
+    margin-bottom: 10px;
+    }
+
+
+    .testi section{
+        display: block;
+        margin-bottom: 20px;
+        }
+    
+
+    .chef{
+        display: block;
+        margin-bottom: 20px;
+        }
+    
+
+    .reserve{
+        display: block;
+        margin-bottom: 20px;
+        }
+
+    .mission-vision{
+        display: block;
+        margin-bottom: 20px;
+        }
+
+    .text-image{
+        display: block;
+        margin-bottom: 20px;
+        }
+
+    nav ul{
+        display: block;
+        margin-bottom: 20px;
+        }
+    .banner{
+        height: 600px;
+    }
+    .banner > div{
+        position: relative;
+        width: 100%;
+        top: 10%;
+        left: 20px;
+        text-align: center;
+        margin: 0  10px;
+        }
+    
+     .banner p{
+            font-size: 10px;
+        }
+    }
